@@ -1,0 +1,51 @@
+body {
+    background-image: url("brick-wall.jpg"); /*Oldal hátterének a beállítása*/
+    background-size: cover; /*Háttér kihúzása*/
+    text-align: center; /*Tartalom középre igazítása*/
+    color: white; /*Szöveg színe*/
+    font-family: Verdana; /*Betűtípus*/
+}
+#container {
+    margin-left: auto; /*Tartalom középre igazítása*/
+    margin-right: auto; /*Tartalom középre igazítása*/
+    width: 900px; /*Tartalom szélessége*/
+    background-color: darksalmon; /*Tartalom háttérszíne*/
+    padding-bottom: 30px; /*Eltartás az oldal aljától*/
+}
+
+#header h1{
+    margin-top: 30px; /*Fejléc eltartása az oldal tetejétől*/
+    text-transform: uppercase; /*Cím nagybetűvel*/
+    letter-spacing: 10px; /*Betűk közötti távolság*/
+    padding-top: 30px; /*Eltartás az oldal tetejétől*/
+    padding-bottom: 20px; /*Eltartás a tartalomtól*/
+}
+
+hr {
+    color: white; /*Elválasztó színe*/
+}
+
+.h3 {
+    text-align: left; /*Elhelyezés az oldalon*/
+    padding-top: 20px; /*Eltartás a felső tartalomtól*/
+}
+
+p {
+    text-align: justify; /*Szöveg sorkizárt formátuma*/
+    padding-left: 10px; /*Távolság az oldalaktól*/
+    padding-right: 10px; /*Távolság az oldalaktól*/
+}
+.picture {
+    width: 300px; /*Kép szélessége*/
+    border: 1px solid black;/*Fekete keret a képen*/
+    padding: 2px; /*Keret eltartása a képtől*/
+}
+#parad {
+    float: left; /*Elhelyezés az oldalon*/
+    margin-right: 10px; /*Távolság a szövegtől*/
+}
+
+#budai {
+    float: right; /*Elhelyezés az oldalon*/
+    margin-left: 10px; /*Távolság a szövegtől*/
+}
